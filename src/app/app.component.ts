@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'test-angular-content-projection';
+  isPopupDisplayed = false;
+  favoriteNumber = null;
+
+  togglePopupVisibility() {
+    this.isPopupDisplayed = !this.isPopupDisplayed;
+  }
+
+  updateFavoriteNumber(value) {
+    this.favoriteNumber = value;
+  }
 }
