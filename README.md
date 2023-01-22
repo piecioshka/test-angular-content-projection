@@ -1,5 +1,5 @@
 # test-angular-content-projection
 
-## Demo 🎉
+## Preview 🎉
 
 <https://piecioshka.github.io/test-angular-content-projection/>
